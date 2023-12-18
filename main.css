@@ -1,0 +1,192 @@
+/* *{
+    transition-delay: 0s;  
+} */
+
+.heading-sa{
+  margin: -50px auto;
+  font-weight: normal;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  width: 250px;
+  font-weight: bolder;
+}
+
+body {
+  background-image: url("css/annie-spratt-yI3weKNBRTc-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
+.navbar{
+  margin: 25px;
+  text-align: right;
+  /* text-decoration: none; */
+}
+
+.btn-link{
+  text-decoration: none;
+  color: #2754bd;
+  font-weight: bolder;
+}
+
+.btn-link:hover{
+  color: #000;
+}
+
+.col-lg-10 {
+  padding: 59px;
+  text-align: center;
+  font-size: -webkit-xxx-large;
+  color: #215b75;
+  /* margin: -95px; */
+}
+
+header {
+  border: 3px solid black;
+  margin: -8px;
+  border-radius: 3px;
+  background-color: #d9dcd3;
+}
+
+hr {
+  max-width: 61.25rem;
+  border-width: 0.2rem;
+  border-color: #215b75;
+}
+
+.define-para {
+  text-align: center;
+  font-size: 20px;
+  width: 457px;
+  /* border: 3px solid black; */
+  text-align: center;
+  margin: auto;
+  box-sizing: border-box;
+  padding: 28px;
+  color: #000;
+  font-family: 'Roboto Slab', serif;
+  /* font-weight: bold; */
+}
+
+.knowmore {
+  background: #2754bd;
+  color: #d9dcd3;
+  border-radius: 40px;
+  padding: 10px 19px;
+  margin: 500px 693px;
+  text-decoration: none;
+}
+
+.knowmore:hover {
+  color: black;
+  background-color: #ffffff80;
+  cursor: pointer;
+}
+.algo {
+  background: #2754bd;
+  color: #d9dcd3;
+  border-radius: 40px;
+  padding: 10px 19px;
+  /* margin: 50px 50px; */
+  text-decoration: none;
+}
+
+.algo:hover {
+  color: black;
+  background-color: #ffffff80;
+  cursor: pointer;
+}
+
+.info {
+  background: #2754bd;
+  color: #d9dcd3;
+  border-radius: 40px;
+  padding: 10px 19px;
+  /* margin: 60px 60px; */
+  text-decoration: none;
+}
+
+.info:hover {
+  color: rgb(0, 0, 0);
+  background-color: #ffffff80;
+  cursor: pointer;
+}
+.moreinfo-demo{
+  margin: 50px 120px;
+}
+.cpu-types {
+  padding-top: 150px;
+  padding-left: 100px;
+}
+
+
+
+.head{
+  text-align: center;
+  font-size:x-large;
+}
+
+.text-define{
+   /* margin: auto;
+  padding: 50px; */
+  text-align: center;
+  font: weight 300px;;
+  font-size: large;
+}
+
+
+.demo-fcfs{
+  text-decoration: none;
+  /* background: #2754bd; */
+  color: #000000;
+  /* font-size: small; */
+  border: 1px solid black;
+  /* border-radius: 10px; */
+}
+
+.fcfs-algo{
+  border: 3px solid black;
+  height: 250px;
+  width: 490px;
+  /* background-image: url(); */
+  /* margin: auto; */
+  float: left;
+  /* margin: auto;
+  padding: 50px; */
+  /* box-sizing: border-box; */
+}
+
+.rr-algo{
+  border: 3px solid black;
+  height: 250px;
+  width: 490px;
+  float: left;
+  /* box-sizing: border-box; */
+}
+
+.sjf-algo{
+  border: 3px solid black;
+  height: 250px;
+  width: 490px;
+  float: left;
+  /* box-sizing: border-box; */
+}
+
+.preem-algo{
+  border: 3px solid black;
+  height: 250px;
+  width: 475px;
+  float: left;
+  margin-left: 250px;
+  /* box-sizing: border-box; */
+}
+
+.nonpreem-algo{
+  border: 3px solid black;
+  height: 250px;
+  width: 475px;
+  float: left;
+  /* box-sizing: border-box; */
+}

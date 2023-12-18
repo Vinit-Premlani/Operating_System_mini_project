@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="info.css" />
+    <title>Information of CPU Scheduling</title>
+    <link rel = "icon" href = "color-circle-removebg-preview.png" type = "image/x-icon">
+  </head>
+  <body>
+    <!-- <img class="twotypes" src="download.png" alt="types"> -->
+    <header>
+      <img
+        src="logo.jpg"
+        alt="PDEU Logo"
+        class="pdeu-logo"
+        width="60px"
+        height="60px"
+      />
+      <h2>Scheduling Algorithms</h2>
+
+      <div class="navbar" id="navbar-nav">
+        <a class="btn btn-link" href="os.html">Home</a>
+        &nbsp;&nbsp;
+
+        <a class="btn btn-link" href="os.html">Algorithms</a>
+        &nbsp;&nbsp;
+
+        <a class="btn btn-link" href="about_us.html">
+          About us
+        </a>
+      </div>
+    </header>
+    <div class="info">
+      <h3>Basic Concepts</h3>
+      <div class="basic-concepts">
+        <ul>
+          <li>
+            Main objective of multiprogramming is to keep on running processes
+            all the time for maximum CPU utilization.
+          </li>
+          <li>Scheduling is fundamental function of OS.</li>
+          <li>
+            The task of selecting the process in memory that are ready to
+            execute, and allocating them to the CPU is performed by the CPU
+            Scheduler.
+          </li>
+        </ul>
+      </div>
+      <h3>CPU Scheduler</h3>
+      <div class="cpu-scheduler">
+        <ul>
+          <li>CPU Scheduling decisions may take place when a process:</li>
+          <ol type="a">
+            <li>Switches from running to waiting state</li>
+            <li>Switches from running to ready state</li>
+            <li>Switches from waiting to ready</li>
+            <li>Terminates</li>
+          </ol>
+          <li>Scheduling under 1 and 4 is non preemptive.</li>
+          <li>All other scheduling is preemptive.</li>
+        </ul>
+        <h4>Nonpreemptive</h4>
+        <ul>
+          Once a process is allocated the CPU, is does not leave unless:
+
+          <li>it has to wait, e.g.,for I/O request</li>
+          <li>it terminates</li>
+        </ul>
+        <h4>Preemptive</h4>
+        <ul>
+          <li>OS can force (preempt) a process from CPU at anytime</li>
+          <li>E.g., to allocate CPU to another higher-priority process</li>
+        </ul>
+        <h3>Scheduling Criteria</h3>
+        <ul>
+          <strong>CPU utilization:</strong>
+          keep the CPU as busy as possible
+          <li>Maximize</li>
+          <strong>Throughput:</strong>
+          No of processes that complete their execution per time unit
+          <li>Maximize</li>
+          <strong>Turnaround time:</strong>
+          amount of time to execute a particular process (time from submission
+          to termination)
+          <li>Minimize</li>
+          <strong>Waiting time:</strong>
+          amount of time a process has been waiting in the
+          <b>ready queue</b>
+          (sum of time waiting in ready queue)
+          <li>Minimize</li>
+          <strong>Response time:</strong>
+          amount of time it takes from when a request was submitted until the
+          first response is produced,
+          <b>not</b>
+          output (for time-sharing enviroment)
+          <li>Minimize</li>
+        </ul>
+        <h3>Scheduling Algorithms</h3>
+        <ul>
+          <li><a href="fcfs-info.html"><b>FCFS (First come, first Served)</b></a></li>
+          
+          <li><a href="sjf-info.html"><b>SJF (Shortest Job First)</b></a></li>
+          <li><a href="PriorityPreemptive-info.html"><b>Priority Preemptive</b></a></li>
+          <li><a href="PriorityNonPreemptive-info.html"><b>Priority Non Preemptive</b></a></li>
+          <li><a href="rr-info.html"><b>RR (Round Robin)</b></a></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

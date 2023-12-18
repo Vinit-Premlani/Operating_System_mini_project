@@ -1,0 +1,96 @@
+.heading-sa{
+    margin: -50px auto;
+    font-weight: normal;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    width: 250px;
+    font-weight: bolder;
+  }
+  
+  body {
+    background-image: url("css/annie-spratt-yI3weKNBRTc-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: 100%;
+  }
+  
+  .navbar{
+    margin: 25px;
+    text-align: right;
+    /* text-decoration: none; */
+  }
+
+  .btn-link{
+    text-decoration: none;
+    color: #2754bd;
+    font-weight: bolder;
+  }
+  
+  .btn-link:hover{
+    color: #000;
+  }
+  
+  .col-lg-10 {
+    padding: 59px;
+    text-align: center;
+    font-size: -webkit-xxx-large;
+    color: #215b75;
+    /* margin: -95px; */
+  }
+  
+  header {
+    border: 3px solid black;
+    margin: -8px;
+    border-radius: 3px;
+    background-color: #d9dcd3;
+  }
+
+  table{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 1.3rem;
+    text-align: center;
+    border: 2px solid black;
+    background-color: #d9dcd3;
+  }
+
+  h1{
+    text-align: center;
+  }
+
+  p{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 1.3rem;
+  }
+
+  h3{
+    font-size: 1.75rem;
+  }
+  .priority_preemptive{
+    font-size: 1.3rem;
+  }
+
+  .fcfs_working{
+    font-size: 1.3rem;
+  }
+
+  .fcfs_adv{
+    font-size: 1.3rem;
+  }
+
+  td {
+    padding: 15px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+    border: 1px solid black;
+  }
+
+  th{
+    text-align: inherit;
+    font-weight: bold;
+  }

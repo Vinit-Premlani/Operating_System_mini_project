@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+  <title>CPU Scheduling</title>
+  <link rel="stylesheet" href="main.css" />
+  <link rel="icon" href="color-circle-removebg-preview.png" type="image/x-icon">
+</head>
+
+<body>
+  <header>
+    <img src="logo.jpg" alt="PDEU Logo" class="pdeu-logo" width="60px" height="60px" />
+    <h2 class="heading-sa">Scheduling Algorithms</h2>
+
+    <div class="navbar" id="navbar-nav">
+      <a class="btn btn-link" href="os.html">Home</a>
+      &nbsp;&nbsp;
+
+      <a class="btn btn-link" href="#algorithm">Algorithms</a>
+      &nbsp;&nbsp;
+
+      <a class="btn btn-link" href="about_us.html">
+        About us
+      </a>
+    </div>
+  </header>
+
+  <div class="col-lg-10 align-self-end">
+    <h1 class="text-uppercase text-white font-weight-bold">
+      Scheduling Algorithms Simulator!
+    </h1>
+    <hr class="divider my-4" />
+  </div>
+
+  <div class="CPUdefine">
+    <p class="define-para">
+      In an operating system, CPU scheduling is a process of determining which
+      process will own CPU for execution while another process is on hold.
+    </p>
+    <a class="knowmore" href="info.html">Know More
+    </a>
+  </div>
+
+  <br><br><br>
+  <br><br><br>
+  <!-- <div class="cpu-types">
+      <img src="121119_0541_Schedulinga1.png" alt="image">
+    </div> -->
+
+  <div id="algorithm">
+    <div class="fcfs-algo">
+      <h2 class="head">FCFS</h2>
+      <p class="text-define">FCFS scheduling algorithm simply schedules the jobs according to their arrival time. The
+        job which comes first in the ready queue will get the CPU first. The lesser the arrival time of the job, the
+        sooner will the job get the CPU.</p>
+      <div class="moreinfo-demo"><a class="info" href="fcfs-info.html">More Info</a>&nbsp;
+        <a class="algo" href="FirstComeFirstServe.html">Algorithm
+        </a>
+      </div>
+    </div>
+
+    <div class="sjf-algo">
+      <h2 class="head">SJF</h2>
+      <p class="text-define">In SJF scheduling, the process with the lowest burst time, among the list of available
+        processes in the ready queue, is going to be scheduled next..</p>
+      <div class="moreinfo-demo"><a class="info" href="sjf-info.html">More Info</a>&nbsp;
+        <a class="algo" href="ShortestJobFirst.html">Algorithm
+        </a>
+      </div>
+    </div>
+
+
+
+    <div class="rr-algo">
+      <h2 class="head">RR</h2>
+      <p class="text-define">Round Robin scheduling algorithm is one of the most popular scheduling algorithm which can
+        actually be implemented in most of the operating systems. This is the preemptive version of first come first
+        serve scheduling. The Algorithm focuses on Time Sharing.</p>
+      <div class="moreinfo-demo"><a class="info" href="rr-info.html">More Info</a>&nbsp;
+        <a class="algo" href="RoundRobin.html">Algorithm
+        </a>
+      </div>
+    </div>
+    <br><br><br>
+    <br><br><br>
+    <br><br><br>
+    <br><br><br>
+    <br><br><br>
+
+    <div class="preem-algo">
+      <h2 class="head">Priority Preemptive</h2>
+      <p class="text-define">Priority scheduling is one of the most common scheduling algorithms in batch systems. Each
+        process is assigned a priority. Process with the highest priority is to be executed first and so on.</p>
+      <div class="moreinfo-demo"><a class="info" href="PriorityPreemptive-info.html">More Info</a>&nbsp;
+        <a class="algo" href="PriorityPreemptive.html">Algorithm
+        </a>
+      </div>
+    </div>
+
+    <div class="nonpreem-algo">
+      <h2 class="head">Priority Non-Preemptive</h2>
+      <p class="text-define">In the Non Preemptive Priority scheduling, The Processes are scheduled according to the
+        priority number assigned to them. Once the process gets scheduled, it will run till the completion.</p>
+      <div class="moreinfo-demo"><a class="info" href="PriorityNonPreemptive-info.html">More Info</a>&nbsp;
+        <a class="algo" href="PriorityNonPreemptive.html">Algorithm
+        </a>
+      </div>
+    </div>
+  </div>
+  <br><br><br>
+  <br><br><br>
+  <br><br><br>
+  <br><br><br>
+  <br><br><br>
+  <br><br><br>
+
+</body>
+
+</html>
