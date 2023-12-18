@@ -11,11 +11,5 @@ For FCFS , SJF and round robin we get the arrival time, and the burst time and w
 
 We have also simulated the gaant chart, which is used to represent CPU scheduling in graphical view that help to track specific CPU utilization factor like throughput, waiting time, turnaround time. For all the implemented algorithms, scripts are written to represent the gaant chart for better understanding of the simulated algorithms
 
-# Link 
 
-[CPU SCHEDULING SIMULATION](https://hemanth-07-11.github.io/CPU-Scheduling-Visualisation)
 
-# Contributors
-
-- A Special Thanks to [Ramyaa P](https://github.com/ramyaaprasath) for her valuable contributions in designing and UI
-- Also big thanks to [Sudarsan Kumar N](https://github.com/sudarsankumar) for his worthy contributions in adding few features.
